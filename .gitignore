@@ -30,3 +30,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Java build/output directories
+out/
+
+# Environment / local configuration
+.env
+.env.*
+!.env.example
