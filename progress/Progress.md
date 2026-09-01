@@ -9,15 +9,15 @@ This file tracks my progress through the current **474-item** A2Z dataset.
 | Metric | Progress |
 |---|---:|
 | Total items | 474 |
-| Completed | 1 |
-| Remaining | 473 |
-| Progress | 0.21% |
+| Completed | 2 |
+| Remaining | 472 |
+| Progress | 0.42% |
 
 ## Part Progress
 
 | # | Part | Progress |
 |---|---|---:|
-| 01 | Learn the Basics | 1 / 54 |
+| 01 | Learn the Basics | 2 / 54 |
 | 02 | Learn Important Sorting Techniques | 0 / 7 |
 | 03 | Solve Problems on Arrays | 0 / 40 |
 | 04 | Binary Search | 0 / 32 |
@@ -42,7 +42,7 @@ This file tracks my progress through the current **474-item** A2Z dataset.
 
 | Subsection | Total | Solved | Remaining |
 |---|---:|---:|---:|
-| Things to Know in C++/Java/Python or any language | 9 | 1 | 8 |
+| Things to Know in C++/Java/Python or any language | 9 | 2 | 7 |
 | Build-up Logical Thinking | 3 | 0 | 3 |
 | Learn STL/Java-Collections or similar thing in your language | 1 | 0 | 1 |
 | Know Basic Maths | 7 | 0 | 7 |
@@ -188,6 +188,8 @@ For now, this file records aggregate progress. Individual problem status should 
 | Date | A2Z Item(s) | Code Added | Notes |
 |---|---|---|---|
 | 2026-08-17 | #1 — Input Output | Yes | Completed basic Java output |
+| 2026-09-01 | #2 — Java Basics | Yes | Revised fundamental Java concepts |
+
 
 ## Revision Notes
 
