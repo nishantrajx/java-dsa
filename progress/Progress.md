@@ -9,15 +9,15 @@ This file tracks my progress through the current **474-item** A2Z dataset.
 | Metric | Progress |
 |---|---:|
 | Total items | 474 |
-| Completed | 3 |
-| Remaining | 471 |
-| Progress | 0.63% |
+| Completed | 4 |
+| Remaining | 470 |
+| Progress | 0.84% |
 
 ## Part Progress
 
 | # | Part | Progress |
 |---|---|---:|
-| 01 | Learn the Basics | 3 / 54 |
+| 01 | Learn the Basics | 4 / 54 |
 | 02 | Learn Important Sorting Techniques | 0 / 7 |
 | 03 | Solve Problems on Arrays | 0 / 40 |
 | 04 | Binary Search | 0 / 32 |
@@ -42,7 +42,7 @@ This file tracks my progress through the current **474-item** A2Z dataset.
 
 | Subsection | Total | Solved | Remaining |
 |---|---:|---:|---:|
-| Things to Know in C++/Java/Python or any language | 9 | 3 | 6 |
+| Things to Know in C++/Java/Python or any language | 9 | 4 | 5 |
 | Build-up Logical Thinking | 3 | 0 | 3 |
 | Learn STL/Java-Collections or similar thing in your language | 1 | 0 | 1 |
 | Know Basic Maths | 7 | 0 | 7 |
@@ -190,6 +190,7 @@ For now, this file records aggregate progress. Individual problem status should 
 | 2026-08-17 | #1 — Input Output | Yes | Completed basic Java output |
 | 2026-09-01 | #2 — Java Basics | Yes | Revised fundamental Java concepts |
 | 2026-09-02 | #3 — If ElseIf | Yes | Practiced Java if-else-if conditional logic and boundary cases |
+| 2026-09-03 | #4 — Switch Case | Yes | Practiced switch-case, break, default, and boundary cases |
 
 
 ## Revision Notes
