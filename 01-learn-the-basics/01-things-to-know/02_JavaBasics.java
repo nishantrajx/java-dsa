@@ -20,7 +20,7 @@
  * Language: Java
  */
 
-public class JavaBasics {
+class JavaBasics {
 
     public static void main(String[] args) {
 

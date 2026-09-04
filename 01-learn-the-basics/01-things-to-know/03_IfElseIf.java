@@ -15,7 +15,7 @@
  * Space Complexity: O(1)
  */
 
-public class IfElseIf {
+class IfElseIf {
 
     public static void studentGrade(int marks) {
 

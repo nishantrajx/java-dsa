@@ -21,7 +21,7 @@
  * Space Complexity: O(1)
  */
 
-public class SwitchCase {
+class SwitchCase {
 
     public static void whichWeekDay(int day) {
 

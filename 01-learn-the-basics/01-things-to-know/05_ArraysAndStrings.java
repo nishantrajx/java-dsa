@@ -22,7 +22,7 @@
 
 import java.util.Arrays;
 
-public class ArraysAndStrings {
+class ArraysAndStrings {
 
     public static void main(String[] args) {
 

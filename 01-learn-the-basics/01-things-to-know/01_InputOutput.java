@@ -20,7 +20,7 @@
  * Basic output operation in Java.
  */
 
-public class InputOutput {
+class InputOutput {
 
     public static void printNumber(int num) {
         System.out.print(num);
