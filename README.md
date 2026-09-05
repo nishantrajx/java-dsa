@@ -22,7 +22,7 @@ The goal of this repository is not simply to collect solutions, but to build str
 
 | # | Section | Progress |
 |---|---|---:|
-| 01 | Learn the Basics | 0 / 54 |\n| 02 | Learn Important Sorting Techniques | 0 / 7 |\n| 03 | Solve Problems on Arrays | 0 / 40 |\n| 04 | Binary Search | 0 / 32 |\n| 05 | Strings [Basic and Medium] | 0 / 15 |\n| 06 | Linked List | 0 / 31 |\n| 07 | Recursion | 0 / 25 |\n| 08 | Bit Manipulation | 0 / 18 |\n| 09 | Stack and Queues | 0 / 30 |\n| 10 | Sliding Window & Two Pointer | 0 / 12 |\n| 11 | Heaps | 0 / 17 |\n| 12 | Greedy Algorithms | 0 / 15 |\n| 13 | Binary Trees | 0 / 38 |\n| 14 | Binary Search Trees | 0 / 16 |\n| 15 | Graphs | 0 / 53 |\n| 16 | Dynamic Programming | 0 / 55 |\n| 17 | Tries | 0 / 7 |\n| 18 | Strings [Advanced] | 0 / 9 |\n| | **Total** | **0 / 474** |
+| 01 | Learn the Basics | 6 / 54 |\n| 02 | Learn Important Sorting Techniques | 0 / 7 |\n| 03 | Solve Problems on Arrays | 0 / 40 |\n| 04 | Binary Search | 0 / 32 |\n| 05 | Strings [Basic and Medium] | 0 / 15 |\n| 06 | Linked List | 0 / 31 |\n| 07 | Recursion | 0 / 25 |\n| 08 | Bit Manipulation | 0 / 18 |\n| 09 | Stack and Queues | 0 / 30 |\n| 10 | Sliding Window & Two Pointer | 0 / 12 |\n| 11 | Heaps | 0 / 17 |\n| 12 | Greedy Algorithms | 0 / 15 |\n| 13 | Binary Trees | 0 / 38 |\n| 14 | Binary Search Trees | 0 / 16 |\n| 15 | Graphs | 0 / 53 |\n| 16 | Dynamic Programming | 0 / 55 |\n| 17 | Tries | 0 / 7 |\n| 18 | Strings [Advanced] | 0 / 9 |\n| | **Total** | **0 / 474** |
 
 > Progress numbers are based on the current personal A2Z dataset. See [`progress/Progress.md`](progress/Progress.md) for the detailed subsection breakdown.
 
