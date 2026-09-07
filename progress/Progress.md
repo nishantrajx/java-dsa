@@ -9,15 +9,15 @@ This file tracks my progress through the current **474-item** A2Z dataset.
 | Metric | Progress |
 |---|---:|
 | Total items | 474 |
-| Completed | 7 |
-| Remaining | 467 |
-| Progress | 1.47% |
+| Completed | 8 |
+| Remaining | 466 |
+| Progress | 1.68% |
 
 ## Part Progress
 
 | # | Part | Progress |
 |---|---|---:|
-| 01 | Learn the Basics | 7 / 54 |
+| 01 | Learn the Basics | 8 / 54 |
 | 02 | Learn Important Sorting Techniques | 0 / 7 |
 | 03 | Solve Problems on Arrays | 0 / 40 |
 | 04 | Binary Search | 0 / 32 |
@@ -42,7 +42,7 @@ This file tracks my progress through the current **474-item** A2Z dataset.
 
 | Subsection | Total | Solved | Remaining |
 |---|---:|---:|---:|
-| Things to Know in C++/Java/Python or any language | 9 | 7 | 2 |
+| Things to Know in C++/Java/Python or any language | 9 | 8 | 1 |
 | Build-up Logical Thinking | 3 | 0 | 3 |
 | Learn STL/Java-Collections or similar thing in your language | 1 | 0 | 1 |
 | Know Basic Maths | 7 | 0 | 7 |
@@ -194,6 +194,7 @@ For now, this file records aggregate progress. Individual problem status should 
 | 2026-09-04 | #5 — What are arrays, strings? | Yes | Revised Java arrays, 2D arrays, strings, indexing, traversal, and basic String methods |
 | 2026-09-05 | #6 — For Loop | Yes | Practiced Java for-loop syntax, initialization, condition, update, accumulation, dry run, and boundary testing |
 | 2026-09-06 | #7 — While Loop | Yes | Practiced Java while loops, counter-controlled iteration, incremental patterns, edge cases, and dry runs |
+| 2026-09-07 | #8 — Pass by Reference / Value | Yes | Practiced in-place array reversal, two pointers, swapping, and Java array-reference behavior |
 
 ## Revision Notes
 
