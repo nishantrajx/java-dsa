@@ -1,63 +1,134 @@
 # DSA Progress
 
-Personal progress tracker for my Java implementation of the
-**Striver's A2Z DSA roadmap**.
+Personal progress tracker for my Java implementation of **Striver's A2Z DSA sheet**. The repository was restarted from a fresh A2Z starting point on 24 September 2026.
 
-The repository has been restarted from a new A2Z starting point.
+> **Progress rule:** An item is marked complete only after I have studied it, attempted it, implemented or understood it, tested it, and reviewed it where applicable.
 
-> **Progress Rule:** An item is marked complete only after I have
-> actually studied, attempted, implemented/understood, tested, and
-> reviewed it where applicable.
+Archived work is kept as learning history and is not counted toward this journey.
 
-Archived work is preserved as learning history and is not automatically
-counted toward the current A2Z journey.
+Jump to: [Checklist](#checklist) · [Revision Tracker](#revision-tracker) · [Milestones](#milestones) · [Daily Log](#daily-log)
 
----
+## Current journey
 
-## Current Journey
+This is the only place that holds the current position and counts. Update it when an item is completed.
 
 | Metric | Status |
 |---|---|
-| Start Date | 24 September 2026 |
-| Language | Java |
-| Roadmap | Striver's A2Z DSA |
-| Current Module | Beginner Problems |
-| Current Section | Patterns |
-| Current Problem | Pattern 1 |
-| Problems Solved | 0 |
-| Coding Streak | 0 |
+| Start date             | 24 September 2026            |
+| Language               | Java                         |
+| Roadmap                | Striver's A2Z DSA, 20 steps  |
+| Current step           | 01 — Beginner Problems       |
+| Current section        | 04 — Patterns                |
+| Current problem        | Pattern 1                    |
+| Coding problems solved | 0 / 448                      |
+| Lessons completed      | 0 / 47                       |
+| Current streak         | 0 days                       |
+| Longest streak         | 0 days                       |
+| Contests               | 16 placeholders, not counted |
 
----
+Sheet entries: **495 (448 coding problems + 47 lessons)**. Contest placeholders: **16**, not counted.
 
-# Beginner Problems
+### Check the counts
 
-## 01 — Fundamentals of Programming
+Run from the repository root. The checklist is the source of truth, so these numbers should match the table above:
 
-- [ ] Breaking The Myth
-- [ ] Programming and What Are Computers?
-- [ ] How to Think Like a Programmer
-- [ ] Flowcharts and Pseudocode
-- [ ] Flowchart Problem-Solving
-- [ ] Dry Runs, Edge Cases and Debugging
-- [ ] Programming Languages and Choosing a Path
+```bash
+grep -c "^- \[x\] .*[^)]$" progress/Progress.md   # completed coding problems (lines not ending in "(lesson)")
+grep -c "^- \[x\] .*(lesson)$" progress/Progress.md  # completed lessons
+grep -c "^- \[ \]" progress/Progress.md          # items still open
 
-## 02 — Language Basics
+```
 
-- [ ] Learn C++
-- [ ] Learn Java
-- [ ] Learn Python
+## Status legend
 
-## 03 — Logic Building
+| Mark | Meaning |
+|---|---|
+| `[ ]`         | Not started                                                          |
+| `[x]`         | Completed                                                            |
+| `[R]`         | Needs revision. It stays visible until reviewed again. |
 
-### Easy and Medium
+An item marked `[R]` is tracked in the [Revision Tracker](#revision-tracker) until it has been reviewed again.
 
-- [ ] Easy and Medium
+## Revision tracker
 
-### Hard
+| Problem Reason Revision date Status Notes  |   |   |   |   |
+| ------------------------------------------ | - | - | - | - |
+|                                            |   |   |   |   |
 
-- [ ] Hard
+## Milestones
 
-## 04 — Patterns
+Coding problems solved:
+
+- [ ] 1
+- [ ] 10
+- [ ] 25
+- [ ] 50
+- [ ] 100
+- [ ] 200
+- [ ] 300
+- [ ] 400
+- [ ] 448, the whole roadmap
+
+## Session log
+
+### 24 September 2026: repository setup
+
+- [x] Rebuild the A2Z repository structure
+- [x] Move previous work into `archive/`
+- [x] Update README
+- [x] Update Progress.md
+- [ ] Commit and push the repository structure
+
+Next: Pattern 1 (Rectangular Star Pattern). Status: not started.
+
+## Daily log
+
+One row per meaningful study or coding session. Approach, complexity and edge cases go in each Java file's header comment.
+
+| Date Step Section Item Code added Status Notes  |                      |          |           |    |             |                                                      |
+| ----------------------------------------------- | -------------------- | -------- | --------- | -- | ----------- | ---------------------------------------------------- |
+| 2026-09-24                                      | 01 Beginner Problems | Patterns | Pattern 1 | No | Not started | Repository restarted from a fresh A2Z starting point |
+
+## GitHub push journey
+
+A push should represent real progress: studying, coding, documenting, committing, and pushing regularly. Empty commits are never used to keep a streak.
+
+## Archive
+
+`archive/old-a2z/` holds the previous A2Z starting point and `archive/pre-a2z/` holds earlier programming and DSA work. Neither is counted toward this journey.
+
+## Progress principle
+
+Consistency matters more than daily volume. A completed problem means I understood what was asked, attempted it independently, can explain the approach, implemented and tested it, understand its time and space complexity, and recorded what I learned.
+
+The goal is not more checkmarks. It is to get better at solving problems on my own.
+
+## Checklist
+
+## 01 — Beginner Problems
+
+### 01 — Fundamentals of Programming
+
+- [ ] Breaking The Myth (lesson)
+- [ ] Programming and What Are Computers? (lesson)
+- [ ] How to Think Like a Programmer (lesson)
+- [ ] Flowcharts and Pseudocode (lesson)
+- [ ] Flowchart Problem-Solving (lesson)
+- [ ] Dry Runs, Edge Cases and Debugging (lesson)
+- [ ] Programming Languages and Choosing a Path (lesson)
+
+### 02 — Language Basics
+
+- [ ] Learn C++ (lesson)
+- [ ] Learn Java (lesson)
+- [ ] Learn Python (lesson)
+
+### 03 — Logic Building (Patterns)
+
+- [ ] Easy and Medium (lesson)
+- [ ] Hard (lesson)
+
+### 04 — Patterns
 
 - [ ] Pattern 1
 - [ ] Pattern 2
@@ -82,25 +153,25 @@ counted toward the current A2Z journey.
 - [ ] Pattern 21
 - [ ] Pattern 22
 
-## 05 — Time Complexity
+### 05 — Time Complexity
 
-- [ ] Theory with examples
+- [ ] Theory with examples (lesson)
 
-## 06 — Standard Libraries & Collections
+### 06 — Standard Libraries & Collections
 
-- [ ] STL
-- [ ] Java Collections
-- [ ] Python Libraries Part 1
-- [ ] Python Libraries Part 2
+- [ ] STL (lesson)
+- [ ] Java Collections (lesson)
+- [ ] Python Libraries Part 1 (lesson)
+- [ ] Python Libraries Part 2 (lesson)
 
-## 07 — Concept Basics
+### 07 — Concept Basics
 
-- [ ] Basic Maths
-- [ ] Basic Arrays
-- [ ] Basic Hashing
-- [ ] Basic String
+- [ ] Basic Maths (lesson)
+- [ ] Basic Arrays (lesson)
+- [ ] Basic Hashing (lesson)
+- [ ] Basic String (lesson)
 
-## 08 — Basic Maths
+### 08 — Basic Maths
 
 - [ ] Count all Digits of a Number
 - [ ] Count number of odd digits in a number
@@ -116,20 +187,20 @@ counted toward the current A2Z journey.
 - [ ] LCM of two numbers
 - [ ] Divisors of a Number
 
-## 09 — Basic Arrays
+### 09 — Basic Arrays
 
 - [ ] Sum of Array Elements
 - [ ] Count of odd numbers in Array
 - [ ] Check if the Array is Sorted I
 - [ ] Reverse an array
 
-## 10 — Basic Hashing
+### 10 — Basic Hashing
 
 - [ ] Highest Occurring Element in an Array
 - [ ] Second Highest Occurring Element
 - [ ] Sum of Highest and Lowest Frequency
 
-## 11 — Basic Strings
+### 11 — Basic Strings
 
 - [ ] Reverse a String II
 - [ ] Palindrome Check
@@ -140,10 +211,10 @@ counted toward the current A2Z journey.
 - [ ] Valid Anagram
 - [ ] Sort Characters by Frequency
 
-## 12 — Basic Recursion
+### 12 — Basic Recursion
 
-- [ ] Recursion Theory
-- [ ] Recursion Concepts with Parameters
+- [ ] Recursion Theory (lesson)
+- [ ] Recursion Concepts with Parameters (lesson)
 - [ ] Sum of First N Numbers
 - [ ] Factorial of a Given Number
 - [ ] Sum of Array Elements II
@@ -155,11 +226,7 @@ counted toward the current A2Z journey.
 - [ ] Sum of Digits in a Given Number
 - [ ] Fibonacci Number
 
----
-
-# Main DSA Modules
-
-## 01 — Sorting
+## 02 — Sorting
 
 ### 01 — Algorithms
 
@@ -171,9 +238,7 @@ counted toward the current A2Z journey.
 - [ ] Recursive Bubble Sort
 - [ ] Recursive Insertion Sort
 
----
-
-## 02 — Arrays
+## 03 — Arrays
 
 ### 01 — Fundamentals
 
@@ -187,91 +252,87 @@ counted toward the current A2Z journey.
 ### 02 — Logic Building
 
 - [ ] Move Zeros to End
-- [ ] Remove Duplicates from Sorted Array
-- [ ] Find Missing Number
-- [ ] Union of Two Sorted Arrays
-- [ ] Intersection of Two Sorted Arrays
+- [ ] Remove duplicates from sorted array
+- [ ] Find missing number
+- [ ] Union of two sorted arrays
+- [ ] Intersection of two sorted arrays
 
-### 03 — FAQs
+### 03 — FAQs (Medium)
 
 - [ ] Majority Element I
 - [ ] Leaders in an Array
-- [ ] Rearrange Array Elements by Sign
-- [ ] Print the Matrix in Spiral Manner
+- [ ] Rearrange array elements by sign
+- [ ] Print the matrix in spiral manner
 - [ ] Pascal's Triangle I
 - [ ] Pascal's Triangle II
 - [ ] Pascal's Triangle III
-- [ ] Rotate Matrix by 90 Degrees
+- [ ] Rotate matrix by 90 degrees
 - [ ] Set Matrix Zeroes
 - [ ] Two Sum
 - [ ] 3 Sum
 - [ ] 4 Sum
-- [ ] Sort an Array of 0's, 1's and 2's
+- [ ] Sort an array of 0's 1's and 2's
 - [ ] Kadane's Algorithm
 - [ ] Next Permutation
 
-### 04 — FAQs
+### 04 — FAQs (Hard)
 
 - [ ] Majority Element II
-- [ ] Find the Repeating and Missing Number
+- [ ] Find the repeating and missing number
 - [ ] Count Inversions
 - [ ] Reverse Pairs
 - [ ] Maximum Product Subarray in an Array
-- [ ] Merge Two Sorted Arrays Without Extra Space
+- [ ] Merge two sorted arrays without extra space
 
 ### 05 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 03 — Hashing
+## 04 — Hashing
 
 ### 01 — Theory
 
-- [ ] Basic Hashing
+- [ ] Basic Hashing (lesson)
 
 ### 02 — FAQs
 
 - [ ] Longest Consecutive Sequence in an Array
-- [ ] Longest Subarray with Sum K
+- [ ] Longest subarray with sum K
 - [ ] Largest Subarray with Sum 0
-- [ ] Count Subarrays with Given Sum
-- [ ] Count Subarrays with Given XOR K
+- [ ] Count subarrays with given sum
+- [ ] Count subarrays with given xor K
 
 ### 03 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 04 — Binary Search
+## 05 — Binary Search
 
 ### 01 — Fundamentals
 
-- [ ] Search X in Sorted Array
+- [ ] Search X in sorted array
 - [ ] Lower Bound
 - [ ] Upper Bound
 
 ### 02 — Logic Building
 
-- [ ] Search Insert Position
+- [ ] Search insert position
 - [ ] Floor and Ceil in Sorted Array
-- [ ] First and Last Occurrence
+- [ ] First and last occurrence
 - [ ] Search in Rotated Sorted Array I
 - [ ] Search in Rotated Sorted Array II
-- [ ] Find Minimum in Rotated Sorted Array
-- [ ] Find Out How Many Times the Array is Rotated
-- [ ] Single Element in Sorted Array
+- [ ] Find minimum in Rotated Sorted Array
+- [ ] Find out how many times the array is rotated
+- [ ] Single element in sorted array
 - [ ] Count Occurrences in a Sorted Array
 
 ### 03 — On Answers
 
-- [ ] Find Square Root of a Number
-- [ ] Find Nth Root of a Number
-- [ ] Find the Smallest Divisor
-- [ ] Koko Eating Bananas
-- [ ] Minimum Days to Make M Bouquets
+- [ ] Find square root of a number
+- [ ] Find Nth root of a number
+- [ ] Find the smallest divisor
+- [ ] Koko eating bananas
+- [ ] Minimum days to make M bouquets
 - [ ] Capacity to Ship Packages Within D Days
 - [ ] Kth Missing Positive Number
 - [ ] Painter's Partition
@@ -280,27 +341,25 @@ counted toward the current A2Z journey.
 
 - [ ] Aggressive Cows
 - [ ] Book Allocation Problem
-- [ ] Find Peak Element
-- [ ] Median of 2 Sorted Arrays
-- [ ] Kth Element of 2 Sorted Arrays
+- [ ] Find peak element
+- [ ] Median of 2 sorted arrays
+- [ ] Kth element of 2 sorted arrays
 - [ ] Minimize Max Distance to Gas Station
-- [ ] Split Array Largest Sum
+- [ ] Split array - largest sum
 
 ### 05 — 2D Arrays
 
-- [ ] Find Row with Maximum 1's
+- [ ] Find row with maximum 1's
 - [ ] Search in a 2D Matrix
-- [ ] Search in 2D Matrix II
-- [ ] Find Peak Element II
+- [ ] Search in 2D matrix - II
+- [ ] Find Peak Element - II
 - [ ] Matrix Median
 
 ### 06 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 05 — Strings (Basic and Medium)
+## 06 — Strings (Basic and Medium)
 
 ### 01 — Parentheses
 
@@ -310,21 +369,19 @@ counted toward the current A2Z journey.
 ### 02 — String Conversions
 
 - [ ] Roman to Integer
-- [ ] String to Integer
+- [ ] String to Integer (atoi)
 
 ### 03 — Substring Problems
 
-- [ ] Count Number of Substrings
+- [ ] Count Number of Substrings (lesson)
 - [ ] Longest Palindromic Substring
 - [ ] Sum of Beauty of All Substrings
 
----
-
-## 06 — Recursion
+## 07 — Recursion
 
 ### 01 — Implementation Problems
 
-- [ ] Pow
+- [ ] Pow(x,n)
 - [ ] Generate Parentheses
 - [ ] Power Set
 - [ ] Count Good Numbers
@@ -332,12 +389,12 @@ counted toward the current A2Z journey.
 
 ### 02 — Subsequence Pattern Problems
 
-- [ ] Learn All Patterns of Subsequences
-- [ ] Check if There Exists a Subsequence with Sum K
-- [ ] Count All Subsequences with Sum K
+- [ ] Learn All Patterns of Subsequences (Theory) (lesson)
+- [ ] Check if there exists a subsequence with sum K
+- [ ] Count all subsequences with sum K
 - [ ] Generate Binary Strings Without Consecutive 1s
 
-### 03 — FAQs
+### 03 — FAQs (Medium)
 
 - [ ] Combination Sum
 - [ ] Combination Sum II
@@ -349,9 +406,9 @@ counted toward the current A2Z journey.
 
 - [ ] Letter Combinations of a Phone Number
 
-### 05 — FAQs
+### 05 — FAQs (Hard)
 
-- [ ] Palindrome Partitioning
+- [ ] Palindrome partitioning
 - [ ] Word Search
 - [ ] N Queen
 - [ ] Rat in a Maze
@@ -361,98 +418,94 @@ counted toward the current A2Z journey.
 
 ### 06 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
+## 08 — Linked-List
 
-## 07 — Linked List
+### 01 — Fundamentals (Single LL)
 
-### 01 — Fundamentals
-
-- [ ] Introduction to Singly LinkedList
+- [ ] Introduction to Singly LinkedList (lesson)
 - [ ] Traversal in Linked List
-- [ ] Deletion in Linked List
-- [ ] Insertion in Linked List
-- [ ] Deletion of the Head of LL
-- [ ] Deletion of the Tail of Linked List
-- [ ] Deletion of the Kth Element of Linked List
-- [ ] Delete the Element with Value X
-- [ ] Insertion at the Head of Linked List
-- [ ] Insertion at the Tail of Linked List
-- [ ] Insertion at the Kth Position of Linked List
-- [ ] Insertion Before the Value X in Linked List
-- [ ] Find the Length of the Linked List
+- [ ] Deletion in Linked List (lesson)
+- [ ] Insertion in Linked List (lesson)
+- [ ] Deletion of the head of LL
+- [ ] Deletion of the tail of Linked List
+- [ ] Deletion of the Kth element of Linked List
+- [ ] Delete the element with value X
+- [ ] Insertion at the head of Linked List
+- [ ] Insertion at the tail of Linked List
+- [ ] Insertion at the Kth position of Linked List
+- [ ] Insertion before the value X in Linked List
+- [ ] Find the length of the Linked List
 - [ ] Search in Linked List
 
-### 02 — Fundamentals
+### 02 — Fundamentals (Doubly LL)
 
-- [ ] Introduction to Doubly LL
-- [ ] Deletion in Doubly LL
-- [ ] Insertion in DLL
+- [ ] Introduction to Doubly LL (lesson)
+- [ ] Deletion in Doubly LL (lesson)
+- [ ] Insertion in DLL (lesson)
 - [ ] Convert Array to Doubly Linked List
 - [ ] Delete Tail of Doubly Linked List
 - [ ] Delete Kth Element of Doubly Linked List
-- [ ] Removing Given Node in Doubly Linked List
-- [ ] Insert Node Before Head in Doubly Linked List
-- [ ] Insert Node Before Tail in Doubly Linked List
-- [ ] Insert Node Before in Doubly Linked List
-- [ ] Insert Before Given Node in Doubly Linked List
-- [ ] Delete Head of Doubly Linked List
+- [ ] Removing given node in Doubly Linked List
+- [ ] Insert node before head in Doubly Linked List
+- [ ] Insert node before tail in Doubly Linked List
+- [ ] Insert node before (kth node) in Doubly Linked List
+- [ ] Insert before given node in Doubly Linked List
+- [ ] Delete head of Doubly Linked List
 - [ ] Reverse a Doubly Linked List
 
 ### 03 — Logic Building
 
-- [ ] Add Two Numbers in Linked List
-- [ ] Segregate Odd and Even Nodes in Linked List
-- [ ] Sort a Linked List of 0's, 1's and 2's
-- [ ] Remove Nth Node from the Back of the LL
+- [ ] Add two numbers in Linked List
+- [ ] Segregate odd and even nodes in Linked List
+- [ ] Sort a Linked List of 0's 1's and 2's
+- [ ] Remove Nth node from the back of the LL
 - [ ] Reverse a LL
 
-### 04 — FAQs
+### 04 — FAQs (Medium)
 
-- [ ] Add One to a Number Represented by LL
+- [ ] Add one to a number represented by LL
 - [ ] Find Middle of Linked List
-- [ ] Delete the Middle Node in LL
-- [ ] Check if LL is Palindrome or Not
-- [ ] Find the Intersection Point of Y LL
-- [ ] Detect a Loop in LL
-- [ ] Find the Starting Point in LL
-- [ ] Length of Loop in LL
+- [ ] Delete the middle node in LL
+- [ ] Check if LL is palindrome or not
+- [ ] Find the intersection point of Y LL
+- [ ] Detect a loop in LL
+- [ ] Find the starting point in LL
+- [ ] Length of loop in LL
 
-### 05 — FAQs
+### 05 — FAQs (Hard)
 
-- [ ] Reverse LL in Group of Given Size K
+- [ ] Reverse LL in group of given size K
 - [ ] Rotate a LL
-- [ ] Merge Two Sorted Lists
+- [ ] Merge two Sorted Lists
 - [ ] Flattening of LL
 - [ ] Sort LL
-- [ ] Clone a LL with Random and Next Pointer
+- [ ] Clone a LL with random and next pointer
 
-### 06 — FAQs
+### 06 — FAQs (DLL)
 
-- [ ] Delete All Occurrences of a Key in DLL
-- [ ] Remove Duplicates from Sorted DLL
+- [ ] Delete all occurrences of a key in DLL
+- [ ] Remove duplicates from sorted DLL
 - [ ] Find Pairs with Given Sum in Doubly Linked List
 
 ### 07 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 08 — Bit Manipulation
+## 09 — Bit Manipulation
 
 ### 01 — Theory
 
-- [ ] Introduction to Bits and Tricks
+- [ ] Introduction to Bits and Tricks (lesson)
 
 ### 02 — Bit Fundamentals
 
-- [ ] Check if the i-th Bit is Set or Not
+- [ ] Check if the i-th bit is Set or Not
 - [ ] Check if a Number is Odd or Not
 - [ ] Check if a Number is Power of 2 or Not
 - [ ] Count the Number of Set Bits
-- [ ] Set / Unset the Rightmost Unset Bit
+- [ ] Set/Unset the rightmost unset bit (lesson)
 - [ ] Swap Two Numbers
 
 ### 03 — Problems
@@ -461,17 +514,15 @@ counted toward the current A2Z journey.
 - [ ] Single Number I
 - [ ] Single Number II
 - [ ] Single Number III
-- [ ] Divide Two Numbers Without Multiplication and Division
+- [ ] Divide two numbers without multiplication and division
 - [ ] Power Set — Bit Manipulation
-- [ ] XOR of Numbers in a Given Range
+- [ ] XOR of numbers in a given range
 
 ### 04 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 09 — Greedy Algorithms
+## 10 — Greedy Algorithms
 
 ### 01 — Easy
 
@@ -483,12 +534,12 @@ counted toward the current A2Z journey.
 ### 02 — Scheduling and Interval Problems
 
 - [ ] Shortest Job First
-- [ ] Job Sequencing Problem
-- [ ] N Meetings in One Room
-- [ ] Non-Overlapping Intervals
+- [ ] Job sequencing Problem
+- [ ] N meetings in one room
+- [ ] Non-overlapping Intervals
 - [ ] Insert Interval
 - [ ] Merge Intervals
-- [ ] Minimum Number of Platforms Required for a Railway
+- [ ] Minimum number of platforms required for a railway
 
 ### 03 — Hard
 
@@ -498,15 +549,13 @@ counted toward the current A2Z journey.
 
 ### 04 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 10 — Sliding Window / 2 Pointer
+## 11 — Sliding Window / 2 Pointer
 
 ### 01 — Pattern and Template
 
-- [ ] Theory
+- [ ] Theory (lesson)
 
 ### 02 — Constant Window
 
@@ -531,21 +580,19 @@ counted toward the current A2Z journey.
 
 ### 05 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 11 — Stack / Queues
+## 12 — Stack / Queues
 
 ### 01 — Implementation
 
-- [ ] Implementation Using Different DS
-- [ ] Implement Stack Using Arrays
-- [ ] Implement Queue Using Arrays
-- [ ] Implement Stack Using Queue
-- [ ] Implement Queue Using Stack
-- [ ] Implement Stack Using LinkedList
-- [ ] Implement Queue Using LinkedList
+- [ ] Implementation using different DS (lesson)
+- [ ] Implement Stack using Arrays
+- [ ] Implement Queue using Arrays
+- [ ] Implement Stack using Queue
+- [ ] Implement Queue using Stack
+- [ ] Implement stack using Linkedlist
+- [ ] Implement queue using Linkedlist
 - [ ] Balanced Paranthesis
 
 ### 02 — Prefix, Infix and Postfix Conversions
@@ -572,9 +619,9 @@ counted toward the current A2Z journey.
 - [ ] Implement Min Stack
 - [ ] Sliding Window Maximum
 - [ ] Trapping Rainwater
-- [ ] Largest Rectangle in a Histogram
+- [ ] Largest rectangle in a histogram
 - [ ] Maximum Rectangles
-- [ ] Stock Span Problem
+- [ ] Stock span problem
 - [ ] Celebrity Problem
 - [ ] LRU Cache
 - [ ] LFU Cache
@@ -582,29 +629,27 @@ counted toward the current A2Z journey.
 
 ### 05 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 12 — Binary Trees
+## 13 — Binary Trees
 
 ### 01 — Theory / Traversals
 
-- [ ] Introduction
+- [ ] Introduction (lesson)
 - [ ] Inorder Traversal
 - [ ] Preorder Traversal
 - [ ] Postorder Traversal
 - [ ] Level Order Traversal
-- [ ] Pre / Post / Inorder in One Traversal
+- [ ] Pre, Post, Inorder in one traversal
 
 ### 02 — Medium Problems
 
 - [ ] Maximum Depth in BT
-- [ ] Check if Two Trees are Identical or Not
-- [ ] Check for Balanced Binary Tree
+- [ ] Check if two trees are identical or not
+- [ ] Check for balanced binary tree
 - [ ] Diameter of Binary Tree
-- [ ] Maximum Path Sum
-- [ ] Check for Symmetrical BTs
+- [ ] Maximum path sum
+- [ ] Check for symmetrical BTs
 - [ ] Children Sum Property in Binary Tree
 
 ### 03 — FAQs
@@ -613,19 +658,19 @@ counted toward the current A2Z journey.
 - [ ] Boundary Traversal
 - [ ] Vertical Order Traversal
 - [ ] Top View of BT
-- [ ] Bottom View of BT
-- [ ] Right / Left View of BT
-- [ ] Print Root to Leaf Path in BT
+- [ ] Bottom view of BT
+- [ ] Right/Left View of BT
+- [ ] Print root to leaf path in BT
 - [ ] LCA in BT
 - [ ] Maximum Width of BT
-- [ ] Print All Nodes at a Distance of K in BT
-- [ ] Minimum Time Taken to Burn the BT from a Given Node
-- [ ] Count Total Nodes in a Complete BT
+- [ ] Print all nodes at a distance of K in BT
+- [ ] Minimum time taken to burn the BT from a given Node
+- [ ] Count total nodes in a complete BT
 - [ ] Flatten Binary Tree to Linked List
 
 ### 04 — Construction Problems
 
-- [ ] Requirements Needed to Construct a Unique BT
+- [ ] Requirements needed to construct a unique BT
 - [ ] Construct a BT from Preorder and Inorder
 - [ ] Construct a BT from Postorder and Inorder
 - [ ] Serialize and De-serialize BT
@@ -637,61 +682,57 @@ counted toward the current A2Z journey.
 
 ### 06 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 13 — Binary Search Trees
+## 14 — Binary Search Trees
 
 ### 01 — Theory and Basics
 
-- [ ] Introduction to BST
+- [ ] Introduction to BST (lesson)
 - [ ] Search in BST
 - [ ] Floor and Ceil in a BST
-- [ ] Find Min / Max in BST
+- [ ] Find Min/Max in BST (lesson)
 
 ### 02 — Medium
 
-- [ ] Insert a Given Node in BST
-- [ ] Delete a Node in BST
-- [ ] Kth Smallest and Largest Element in BST
-- [ ] Check if a Tree is a BST or Not
+- [ ] Insert a given node in BST
+- [ ] Delete a node in BST
+- [ ] Kth Smallest and Largest element in BST
+- [ ] Check if a tree is a BST or not
 - [ ] LCA in BST
-- [ ] Construct a BST from a Preorder Traversal
-- [ ] Inorder Successor and Predecessor in BST
+- [ ] Construct a BST from a preorder traversal
+- [ ] Inorder successor and predecessor in BST
 
 ### 03 — FAQs
 
-- [ ] BST Iterator
-- [ ] Two Sum in BST
-- [ ] Correct BST with Two Nodes Swapped
+- [ ] BST iterator
+- [ ] Two sum in BST
+- [ ] Correct BST with two nodes swapped
 - [ ] Largest BST in Binary Tree
 
 ### 04 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 14 — Heaps
+## 15 — Heaps
 
 ### 01 — Theory and Implementation
 
-- [ ] Heaps
+- [ ] Heaps (Theory Video) (lesson)
 - [ ] Heapify Algorithm
-- [ ] Build Heap from a Given Array
+- [ ] Build heap from a given Array
 - [ ] Implement Min Heap
 - [ ] Implement Max Heap
-- [ ] Check if an Array Represents a Min Heap
+- [ ] Check if an array represents a min heap
 - [ ] Convert Min Heap to Max Heap
 - [ ] Heap Sort
-- [ ] K-th Largest Element in an Array
+- [ ] K-th Largest element in an array
 
 ### 02 — FAQs
 
 - [ ] Kth Largest Element in a Stream of Running Integers
-- [ ] Sort K-Sorted Array
-- [ ] Merge K Sorted Lists
+- [ ] Sort K-Sorted Array (lesson)
+- [ ] Merge K sorted Lists
 - [ ] Replace Elements by Their Rank
 - [ ] Task Scheduler
 - [ ] Hand of Straights
@@ -703,137 +744,133 @@ counted toward the current A2Z journey.
 
 ### 03 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 15 — Graphs
+## 16 — Graphs
 
 ### 01 — Theory and Traversals
 
-- [ ] Introduction to Graph
+- [ ] Introduction to Graph (lesson)
 - [ ] Traversal Techniques
 - [ ] Connected Components
 
 ### 02 — Traversal Problems
 
-- [ ] Number of Provinces
-- [ ] Number of Islands
-- [ ] Flood Fill Algorithm
-- [ ] Number of Enclaves
+- [ ] Number of provinces
+- [ ] Number of islands
+- [ ] Flood fill algorithm
+- [ ] Number of enclaves
 - [ ] Rotten Oranges
-- [ ] Distance of Nearest Cell Having One
+- [ ] Distance of nearest cell having one
 - [ ] Surrounded Regions
-- [ ] Number of Distinct Islands
+- [ ] Number of distinct islands
 
 ### 03 — Cycles
 
-- [ ] Detect a Cycle in an Undirected Graph
-- [ ] Bipartite Graph
-- [ ] Topological Sort or Kahn's Algorithm
-- [ ] Detect a Cycle in a Directed Graph
+- [ ] Detect a cycle in an undirected graph
+- [ ] Bipartite graph
+- [ ] Topological sort or Kahn's algorithm
+- [ ] Detect a cycle in a directed graph
 
 ### 04 — Hard Problems
 
-- [ ] Find Eventual Safe States
+- [ ] Find eventual safe states
 - [ ] Course Schedule I
 - [ ] Course Schedule II
 - [ ] Alien Dictionary
-- [ ] Shortest Path in DAG
-- [ ] Shortest Path in Undirected Graph with Unit Weights
-- [ ] Word Ladder I
-- [ ] Word Ladder II
+- [ ] Shortest path in DAG
+- [ ] Shortest path in undirected graph with unit weights
+- [ ] Word ladder I
+- [ ] Word ladder II
 
 ### 05 — Shortest Path Algorithms
 
-- [ ] Dijkstra's Algorithm
+- [ ] Dijkstra's algorithm
 - [ ] Print Shortest Path
 - [ ] Shortest Distance in a Binary Maze
-- [ ] Path with Minimum Effort
-- [ ] Cheapest Flight Within K Stops
-- [ ] Minimum Multiplications to Reach End
-- [ ] Number of Ways to Arrive at Destination
-- [ ] Bellman-Ford Algorithm
-- [ ] Floyd-Warshall Algorithm
-- [ ] Find the City with the Smallest Number of Neighbors
+- [ ] Path with minimum effort
+- [ ] Cheapest flight within K stops
+- [ ] Minimum multiplications to reach end
+- [ ] Number of ways to arrive at destination
+- [ ] Bellman ford algorithm
+- [ ] Floyd warshall algorithm
+- [ ] Find the city with the smallest number of neighbors
 - [ ] Network Delay Time
 - [ ] Swim in Rising Water
 
 ### 06 — Minimum Spanning Tree
 
-- [ ] MST Theory
+- [ ] MST theory (lesson)
 - [ ] Disjoint Set
-- [ ] Find the MST Weight
+- [ ] Find the MST weight
 
 ### 07 — Hard Problems II
 
-- [ ] Number of Operations to Make Network Connected
-- [ ] Accounts Merge
-- [ ] Number of Islands II
-- [ ] Making a Large Island
-- [ ] Most Stones Removed with Same Row or Column
+- [ ] Number of operations to make network connected
+- [ ] Accounts merge
+- [ ] Number of islands II
+- [ ] Making a large island
+- [ ] Most stones removed with same row or column
 
 ### 08 — Additional Algorithms
 
-- [ ] Kosaraju's Algorithm
-- [ ] Bridges in Graph
-- [ ] Articulation Point in Graph
+- [ ] Kosaraju's algorithm
+- [ ] Bridges in graph
+- [ ] Articulation point in graph
 
 ### 09 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 16 — Dynamic Programming
+## 17 — Dynamic Programming
 
 ### 01 — Introduction
 
-- [ ] Introduction to DP
+- [ ] Introduction to DP (lesson)
 
 ### 02 — 1D DP
 
-- [ ] Climbing Stairs
+- [ ] Climbing stairs
 - [ ] Frog Jump
-- [ ] Frog Jump with K Distances
-- [ ] Maximum Sum of Non-Adjacent Elements
-- [ ] House Robber
+- [ ] Frog jump with K distances
+- [ ] Maximum sum of non adjacent elements
+- [ ] House robber
 
 ### 03 — 2D DP
 
-- [ ] Ninja's Training
+- [ ] Ninja's training
 
-### 04 — DP on Grids
+### 04 — DP on grids
 
-- [ ] Grid Unique Paths
-- [ ] Unique Paths II
+- [ ] Grid unique paths
+- [ ] Unique paths II
 - [ ] Minimum Falling Path Sum
 - [ ] Triangle
-- [ ] Cherry Pickup II
-- [ ] Count Square Submatrices with All Ones
+- [ ] Cherry pickup II
+- [ ] Count Square Submatrices with All Ones (lesson)
 
-### 05 — DP on Stocks
+### 05 — DP on stocks
 
-- [ ] Best Time to Buy and Sell Stock
-- [ ] Best Time to Buy and Sell Stock II
-- [ ] Best Time to Buy and Sell Stock III
-- [ ] Best Time to Buy and Sell Stock IV
-- [ ] Best Time to Buy and Sell Stock with Transaction Fees
+- [ ] Best time to buy and sell stock
+- [ ] Best time to buy and sell stock II
+- [ ] Best time to buy and sell stock III
+- [ ] Best time to buy and sell stock IV
+- [ ] Best time to buy and sell stock with transaction fees
 - [ ] Best Time to Buy and Sell Stock with Cooldown
 
-### 06 — DP on Subsequences
+### 06 — DP on subsequences
 
-- [ ] Subset Sum Equals to Target
-- [ ] Partition Equal Subset Sum
-- [ ] Partition a Set into Two Subsets with Minimum Absolute Sum Difference
-- [ ] Count Subsets with Sum K
-- [ ] Count Partitions with Given Difference
+- [ ] Subset sum equals to target
+- [ ] Partition equal subset sum
+- [ ] Partition a set into two subsets with minimum absolute sum difference
+- [ ] Count subsets with sum K
+- [ ] Count partitions with given difference
 - [ ] 0 and 1 Knapsack
-- [ ] Minimum Coins
-- [ ] Target Sum
-- [ ] Coin Change II
-- [ ] Unbounded Knapsack
-- [ ] Rod Cutting Problem
+- [ ] Minimum coins
+- [ ] Target sum
+- [ ] Coin change II
+- [ ] Unbounded knapsack
+- [ ] Rod cutting problem
 
 ### 07 — LIS
 
@@ -844,272 +881,77 @@ counted toward the current A2Z journey.
 - [ ] Longest Bitonic Subsequence
 - [ ] Number of Longest Increasing Subsequences
 
-### 08 — DP on Strings
+### 08 — DP on strings
 
-- [ ] Longest Common Subsequence
-- [ ] Longest Common Substring
-- [ ] Longest Palindromic Subsequence
-- [ ] Minimum Insertions to Make String Palindrome
-- [ ] Minimum Insertions or Deletions to Convert String A to B
-- [ ] Shortest Common Supersequence
-- [ ] Distinct Subsequences
-- [ ] Edit Distance
-- [ ] Wildcard Matching
+- [ ] Longest common subsequence
+- [ ] Longest common substring
+- [ ] Longest palindromic subsequence
+- [ ] Minimum insertions to make string palindrome
+- [ ] Minimum insertions or deletions to convert string A to B
+- [ ] Shortest common supersequence
+- [ ] Distinct subsequences
+- [ ] Edit distance
+- [ ] Wildcard matching
 - [ ] Word Break
 - [ ] Count Palindromic Subsequences
 
 ### 09 — MCM DP
 
-- [ ] Matrix Chain Multiplication
-- [ ] Burst Balloons
-- [ ] Palindrome Partitioning II
+- [ ] Matrix chain multiplication
+- [ ] Burst balloons
+- [ ] Palindrome partitioning II
 - [ ] Partition Array for Maximum Sum
-- [ ] Minimum Cost to Cut the Stick
+- [ ] Minimum cost to cut the stick
 - [ ] Different Ways to Evaluate a Boolean Expression
 
 ### 10 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 17 — Tries
+## 18 — Tries
 
 ### 01 — Theory
 
-- [ ] Bit Prerequisites for Trie Problems
+- [ ] Bit Prerequisites for Trie Problems (lesson)
 - [ ] Trie Implementation and Operations
 - [ ] Trie Implementation and Advanced Operations
 
 ### 02 — Problems
 
 - [ ] Longest Word with All Prefixes
-- [ ] Number of Distinct Substrings in a String
-- [ ] Maximum XOR of Two Numbers in an Array
+- [ ] Number of distinct substrings in a string
+- [ ] Maximum XOR of two numbers in an array
 - [ ] Maximum XOR with an Element from an Array
 
----
-
-## 18 — Strings (Advanced Algo)
+## 19 — Strings (Advanced Algo)
 
 ### 01 — Medium Problems
 
-- [ ] Reverse Every Word in a String
-- [ ] Minimum Number of Bracket Reversals to Make an Expression Balanced
-- [ ] Count and Say
+- [ ] Reverse every word in a string
+- [ ] Minimum number of bracket reversals to make an expression balanced
+- [ ] Count and say
 
-### 02 — Advanced Problems (Less Asked)
+### 02 — Advanced Problems (Less asked)
 
-- [ ] Hashing In Strings | Theory
+- [ ] Hashing In Strings | Theory (lesson)
 - [ ] Rabin Karp Algorithm
-- [ ] Z Function
-- [ ] KMP Algorithm or LPS Array
+- [ ] Z function
+- [ ] KMP Algorithm or LPS array
 - [ ] Shortest Palindrome
-- [ ] Longest Happy Prefix
+- [ ] Longest happy prefix
 
 ### 03 — Contest
 
-- [ ] Contest
+Contest placeholder. Not counted until a real contest question is added.
 
----
-
-## 19 — Maths
+## 20 — Maths
 
 ### 01 — Sieve of Eratosthenes
 
-- [ ] Print All Primes Till N
-- [ ] Prime Factorisation of a Number
-- [ ] Count Primes in Range L to R
+- [ ] Print all primes till N
+- [ ] Prime factorisation of a Number
+- [ ] Count primes in range L to R
 
 ### 02 — Contest
 
-- [ ] Contest
-
----
-
-# Progress Summary
-
-Update this section whenever a problem is completed.
-
-| Metric | Current |
-|---|---:|
-| Problems Solved | 0 |
-| Problems Remaining | — |
-| Current Streak | 0 days |
-| Longest Streak | 0 days |
-| Current Module | Beginner Problems |
-| Current Section | Patterns |
-| Current Problem | Pattern 1 |
-
-> The repository structure contains placeholder files for the roadmap.
-> Placeholder files are not counted as completed work.
-
----
-
-# Status Legend
-
-- `[ ]` Not started
-- `[x]` Completed
-- `R` Needs revision
-
-A revision item should remain visible until the concept/problem has
-been reviewed and understood again.
-
----
-
-# Session Log
-
-## 24 September 2026
-
-### Repository Setup
-
-- [x] Rebuild A2Z repository structure
-- [x] Organize previous work into `archive/`
-- [ ] Update README
-- [ ] Update Progress.md
-- [ ] Commit repository structure
-- [ ] Push repository
-
-### First Coding Session
-
-**Current Problem:** Pattern 1 — Rectangular Star Pattern
-
-Status: `NOT STARTED`
-
----
-
-# Daily Log
-
-Use this section to record meaningful study or coding sessions.
-
-| Date | Module | Section | Item | Code Added | Status | Notes |
-|---|---|---|---|---|---|---|
-| 2026-09-24 | Beginner Problems | Patterns | Pattern 1 | No | Not Started | Repository restarted from new A2Z starting point |
-
----
-
-# Problem Notes
-
-For problems where additional notes are useful:
-
-### Problem
-
-What is being asked?
-
-### Intuition
-
-What observation or idea led to the solution?
-
-### Approach
-
-What approach was chosen and why?
-
-### Algorithm
-
-What are the implementation steps?
-
-### Complexity
-
-**Time:**  
-**Space:**
-
-### Edge Cases
-
-What cases were tested?
-
-### Mistakes
-
-What went wrong during the attempt?
-
-### Learning
-
-What did I learn from the problem?
-
-### Commit
-
-Git commit associated with the solution.
-
----
-
-# Revision Tracker
-
-Problems that need another review can be recorded here.
-
-| Problem | Reason | Revision Date | Status | Notes |
-|---|---|---|---|---|
-| | | | | |
-
----
-
-# Milestones
-
-- [ ] 1 problem
-- [ ] 10 problems
-- [ ] 25 problems
-- [ ] 50 problems
-- [ ] 100 problems
-- [ ] 200 problems
-- [ ] 300 problems
-- [ ] 400 problems
-- [ ] Complete current A2Z roadmap
-
----
-
-# GitHub Push Journey
-
-The repository will also track consistency of meaningful GitHub
-activity.
-
-The objective is to build a sustainable habit of studying, coding,
-documenting, committing, and pushing regularly.
-
-> A GitHub push should represent meaningful repository progress.
-> Empty commits are not used simply to maintain a streak.
-
----
-
-# Archive
-
-## `archive/old-a2z/`
-
-Contains files from the previous A2Z starting point:
-
-- `01_InputOutput.java`
-- `02_JavaBasics.java`
-- `03_IfElseIf.java`
-- `04_SwitchCase.java`
-- `05_ArraysAndStrings.java`
-- `06_ForLoop.java`
-- `07_WhileLoop.java`
-- `08_PassByReference.java`
-- `09_TheoryWithExamples.md`
-
-These files are preserved as historical work and are **not counted
-toward the current A2Z progress**.
-
-## `archive/pre-a2z/`
-
-Contains earlier programming and DSA work created before the systematic
-A2Z journey.
-
-Archived work remains part of the learning history but is not counted
-toward the current A2Z progress.
-
----
-
-# Progress Principle
-
-Consistency matters more than daily volume.
-
-A completed problem should mean:
-
-1. I understood what was being asked.
-2. I attempted it independently.
-3. I can explain the approach.
-4. I implemented and tested it.
-5. I understand its time and space complexity.
-6. I recorded the important learning where necessary.
-
-The objective is not to maximize the number of checkmarks.
-
-The objective is to become better at solving problems independently.
+Contest placeholder. Not counted until a real contest question is added.
