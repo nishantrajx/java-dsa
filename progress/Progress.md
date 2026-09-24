@@ -28,17 +28,6 @@ This is the only place that holds the current position and counts. Update it whe
 
 Sheet entries: **495 (448 coding problems + 47 lessons)**. Contest placeholders: **16**, not counted.
 
-### Check the counts
-
-Run from the repository root. The checklist is the source of truth, so these numbers should match the table above:
-
-```bash
-grep -c "^- \[x\] .*[^)]$" progress/Progress.md   # completed coding problems (lines not ending in "(lesson)")
-grep -c "^- \[x\] .*(lesson)$" progress/Progress.md  # completed lessons
-grep -c "^- \[ \]" progress/Progress.md          # items still open
-
-```
-
 ## Status legend
 
 | Mark | Meaning |
@@ -69,25 +58,14 @@ Coding problems solved:
 - [ ] 400
 - [ ] 448, the whole roadmap
 
-## Session log
-
-### 24 September 2026: repository setup
-
-- [x] Rebuild the A2Z repository structure
-- [x] Move previous work into `archive/`
-- [x] Update README
-- [x] Update Progress.md
-- [ ] Commit and push the repository structure
-
-Next: Pattern 1 (Rectangular Star Pattern). Status: not started.
-
 ## Daily log
 
 One row per meaningful study or coding session. Approach, complexity and edge cases go in each Java file's header comment.
 
 | Date Step Section Item Code added Status Notes  |                      |          |           |    |             |                                                      |
 | ----------------------------------------------- | -------------------- | -------- | --------- | -- | ----------- | ---------------------------------------------------- |
-| 2026-09-24                                      | 01 Beginner Problems | Patterns | Pattern 1 | No | Not started | Repository restarted from a fresh A2Z starting point |
+
+No study or coding session recorded yet.
 
 ## GitHub push journey
 
@@ -257,9 +235,9 @@ The goal is not more checkmarks. It is to get better at solving problems on my o
 - [ ] Union of two sorted arrays
 - [ ] Intersection of two sorted arrays
 
-### 03 — FAQs (Medium)
+### 03 — FAQs(Medium)
 
-- [ ] Majority Element I
+- [ ] Majority Element-I
 - [ ] Leaders in an Array
 - [ ] Rearrange array elements by sign
 - [ ] Print the matrix in spiral manner
@@ -275,9 +253,9 @@ The goal is not more checkmarks. It is to get better at solving problems on my o
 - [ ] Kadane's Algorithm
 - [ ] Next Permutation
 
-### 04 — FAQs (Hard)
+### 04 — FAQs(Hard)
 
-- [ ] Majority Element II
+- [ ] Majority Element-II
 - [ ] Find the repeating and missing number
 - [ ] Count Inversions
 - [ ] Reverse Pairs
@@ -319,14 +297,14 @@ Contest placeholder. Not counted until a real contest question is added.
 - [ ] Search insert position
 - [ ] Floor and Ceil in Sorted Array
 - [ ] First and last occurrence
-- [ ] Search in Rotated Sorted Array I
-- [ ] Search in Rotated Sorted Array II
+- [ ] Search in rotated sorted array-I
+- [ ] Search in rotated sorted array-II
 - [ ] Find minimum in Rotated Sorted Array
 - [ ] Find out how many times the array is rotated
 - [ ] Single element in sorted array
 - [ ] Count Occurrences in a Sorted Array
 
-### 03 — On Answers
+### 03 — On answers
 
 - [ ] Find square root of a number
 - [ ] Find Nth root of a number
@@ -394,7 +372,7 @@ Contest placeholder. Not counted until a real contest question is added.
 - [ ] Count all subsequences with sum K
 - [ ] Generate Binary Strings Without Consecutive 1s
 
-### 03 — FAQs (Medium)
+### 03 — FAQs(Medium)
 
 - [ ] Combination Sum
 - [ ] Combination Sum II
@@ -406,7 +384,7 @@ Contest placeholder. Not counted until a real contest question is added.
 
 - [ ] Letter Combinations of a Phone Number
 
-### 05 — FAQs (Hard)
+### 05 — FAQs(Hard)
 
 - [ ] Palindrome partitioning
 - [ ] Word Search
@@ -463,7 +441,7 @@ Contest placeholder. Not counted until a real contest question is added.
 - [ ] Remove Nth node from the back of the LL
 - [ ] Reverse a LL
 
-### 04 — FAQs (Medium)
+### 04 — FAQs(Medium)
 
 - [ ] Add one to a number represented by LL
 - [ ] Find Middle of Linked List
@@ -474,7 +452,7 @@ Contest placeholder. Not counted until a real contest question is added.
 - [ ] Find the starting point in LL
 - [ ] Length of loop in LL
 
-### 05 — FAQs (Hard)
+### 05 — FAQs(Hard)
 
 - [ ] Reverse LL in group of given size K
 - [ ] Rotate a LL
@@ -483,7 +461,7 @@ Contest placeholder. Not counted until a real contest question is added.
 - [ ] Sort LL
 - [ ] Clone a LL with random and next pointer
 
-### 06 — FAQs (DLL)
+### 06 — FAQS (DLL)
 
 - [ ] Delete all occurrences of a key in DLL
 - [ ] Remove duplicates from sorted DLL
@@ -511,11 +489,11 @@ Contest placeholder. Not counted until a real contest question is added.
 ### 03 — Problems
 
 - [ ] Minimum Bit Flips to Convert Number
-- [ ] Single Number I
-- [ ] Single Number II
-- [ ] Single Number III
+- [ ] Single Number - I
+- [ ] Single Number - II
+- [ ] Single Number - III
 - [ ] Divide two numbers without multiplication and division
-- [ ] Power Set — Bit Manipulation
+- [ ] Power Set Bit Manipulation
 - [ ] XOR of numbers in a given range
 
 ### 04 — Contest
@@ -529,7 +507,7 @@ Contest placeholder. Not counted until a real contest question is added.
 - [ ] Assign Cookies
 - [ ] Lemonade Change
 - [ ] Fractional Knapsack
-- [ ] Jump Game I
+- [ ] Jump Game - I
 
 ### 02 — Scheduling and Interval Problems
 
@@ -566,7 +544,7 @@ Contest placeholder. Not counted until a real contest question is added.
 - [ ] Longest Substring Without Repeating Characters
 - [ ] Max Consecutive Ones III
 - [ ] Fruit Into Baskets
-- [ ] Longest Substring with At Most K Distinct Characters
+- [ ] Longest Substring With At Most K Distinct Characters
 - [ ] Longest Repeating Character Replacement
 - [ ] Minimum Window Substring
 - [ ] Minimum Window Subsequence
@@ -574,8 +552,8 @@ Contest placeholder. Not counted until a real contest question is added.
 ### 04 — Counting Subarrays / Substrings Problems
 
 - [ ] Number of Substrings Containing All Three Characters
-- [ ] Binary Subarrays with Sum
-- [ ] Count Number of Nice Subarrays
+- [ ] Binary Subarrays With Sum
+- [ ] Count number of Nice subarrays
 - [ ] Subarrays with K Different Integers
 
 ### 05 — Contest
@@ -607,7 +585,7 @@ Contest placeholder. Not counted until a real contest question is added.
 ### 03 — Monotonic Stack
 
 - [ ] Next Greater Element
-- [ ] Next Greater Element 2
+- [ ] Next Greater Element - 2
 - [ ] Asteroid Collision
 - [ ] Sum of Subarray Minimums
 - [ ] Sum of Subarray Ranges
@@ -633,7 +611,7 @@ Contest placeholder. Not counted until a real contest question is added.
 
 ## 13 — Binary Trees
 
-### 01 — Theory / Traversals
+### 01 — Theory/Traversals
 
 - [ ] Introduction (lesson)
 - [ ] Inorder Traversal
@@ -730,8 +708,8 @@ Contest placeholder. Not counted until a real contest question is added.
 
 ### 02 — FAQs
 
-- [ ] Kth Largest Element in a Stream of Running Integers
-- [ ] Sort K-Sorted Array (lesson)
+- [ ] Kth largest element in a stream of running integers
+- [ ] Sort K sorted array (lesson)
 - [ ] Merge K sorted Lists
 - [ ] Replace Elements by Their Rank
 - [ ] Task Scheduler
@@ -748,7 +726,7 @@ Contest placeholder. Not counted until a real contest question is added.
 
 ## 16 — Graphs
 
-### 01 — Theory and Traversals
+### 01 — Theory and traversals
 
 - [ ] Introduction to Graph (lesson)
 - [ ] Traversal Techniques
@@ -847,7 +825,7 @@ Contest placeholder. Not counted until a real contest question is added.
 - [ ] Minimum Falling Path Sum
 - [ ] Triangle
 - [ ] Cherry pickup II
-- [ ] Count Square Submatrices with All Ones (lesson)
+- [ ] Count Square Submatrices with All Ones|(DP-56) (lesson)
 
 ### 05 — DP on stocks
 
@@ -912,7 +890,7 @@ Contest placeholder. Not counted until a real contest question is added.
 
 ### 01 — Theory
 
-- [ ] Bit Prerequisites for Trie Problems (lesson)
+- [ ] Bit PreRequisites for TRIE Problems (lesson)
 - [ ] Trie Implementation and Operations
 - [ ] Trie Implementation and Advanced Operations
 
@@ -921,7 +899,7 @@ Contest placeholder. Not counted until a real contest question is added.
 - [ ] Longest Word with All Prefixes
 - [ ] Number of distinct substrings in a string
 - [ ] Maximum XOR of two numbers in an array
-- [ ] Maximum XOR with an Element from an Array
+- [ ] Maximum Xor with an element from an array
 
 ## 19 — Strings (Advanced Algo)
 
